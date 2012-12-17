@@ -1,0 +1,10 @@
+launchers:
+  Node:
+    command: "mocha -R tap test/*_test.js"
+    protocol: "tap"
+launch_in_dev:
+  - Node
+  - Chrome
+launch_in_ci:
+  - Node
+  - Chrome
